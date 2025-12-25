@@ -3,109 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        
-        .black{
-            background-color: rgb(0, 0, 0);
-            height: 70px;
-            width: 70px;
-            border: 3px solid blue;
-        }
-        .red{
-            background-color: rgb(255, 255, 255);
-            border: 3px solid rgb(0, 0, 0);
-        }
-        td img{
-            height: 70px;
-            width: 70px;
-        }
-    </style>
+    <title>Student Portfolio</title>
+    <!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+<!-- Embedded CSS (for cascade demo) -->
+<style>
+p{
+color: green; /* This will be overridden by external CSS */
+}
+table{
+    border-radius: 10px;
+}
+</style>
 </head>
 <body>
-    <table border="10px">
+    <h1 id="title">Student Portfolio</h1>
+    <H2>About Me</H2>
+    <p class="info">
+        My name is Muhammad Hassan Ali. I am learning Wab Development.
+    </p>
+    <p style="color: red;">
+        I am a passionate student currently learning web development. I am gaining knowledge of HTML, CSS, and basic JavaScript to create responsive and user-friendly websites. I enjoy designing web pages and improving my coding skills through practice. My goal is to become a skilled web developer and build modern, professional websites in the future.
+    </p>
+    <hr>
+    <h2>skills</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Reading</li>
+        <li>Gaming</li>
+        <li>Sports</li>
+    </ul>
+    <h2>Profile Image</h2>
+    <img src="Jaff Bezos.webp" height="200" width="200" alt="Profile Image">
+    <h2>Education</h2>
+    <table border="1">
         <tr>
-            <td class="red"><img src="white boder.png" alt=""></td>
-            <td class="black"><img src="hours.png" alt=""></td>
-            <td class="red"><img src="white psha.png" alt=""></td>
-            <td class="black"><img src="rani.png" alt=""></td>
-            <td class="red"><img src="white raja.png" alt=""></td>
-            <td class="black"><img src="pasha.png" alt=""></td>
-            <td class="red"><img src="white hours.png" alt=""></td>
-            <td class="black"><img src="boder.png" alt=""></td>
+            <th>Qualification</th>
+            <th>Institute</th>
+            <th>Year</th>
         </tr>
         <tr>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            
+            <td>Matric</td>
+            <td>Rafi Public sec. School</td>
+            <td>2021</td>
         </tr>
         <tr>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-        </tr>
-        <tr>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-        </tr>
-        <tr>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-        </tr>
-        <tr>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-            <td class="black"></td>
-            <td class="red"></td>
-        </tr>
-        <tr>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            <td class="red"><img src="white sipahi.png" alt=""></td>
-            <td class="black"><img src="sipahi.png" alt=""></td>
-            
-        </tr>
-        <tr>
-            <td class="black"><img src="boder.png" alt=""></td>
-            <td class="red"><img src="white hours.png" alt=""></td>
-            <td class="black"><img src="pasha.png" alt=""></td>
-            <td class="red"><img src="white raja.png" alt=""></td>
-            <td class="black"><img src="rani.png" alt=""></td>
-            <td class="red"><img src="white psha.png" alt=""></td>
-            <td class="black"><img src="hours.png" alt=""></td>
-            <td class="red"><img src="white boder.png" alt=""></td>
+            <td>Intermediate</td>
+            <td>DJ Sindh GOV. Science College</td>
+            <td>2023</td>
         </tr>
     </table>
+    <h2>Contact Form</h2>
+    <div class="card">
+        <form>
+            <label>Name:</label><br>
+            <input type="text"><br><br>
+            <label>Email:</label><br>
+            <input type="Email"><br><br>
+            <label>Password:</label><br>
+            <input type="Password"><br><br>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender">Mail
+            <input type="radio" name="gender">Femail
+            <br><br>
+            <label>Subjects:</label><br>
+            <input type="checkbox">HTML
+             <input type="checkbox">CSS
+              <input type="checkbox">JavaScript
+              <br><br>
+              <label>City:</label><br>
+              <select>
+                <option>Select Your City</option>
+                <option>Lahore</option>
+                <option>Karachi</option>
+                <option>Islamabad</option>
+              </select>
+              <br><br>
+              <label>Message:</label><br>
+              <textarea name="4" id="30"></textarea>
+              <br><br>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+
+        </form>
+    </div>
+    <a href="https://www.google.com" target="_blank">
+Visit Google
+</a>
 </body>
 </html>

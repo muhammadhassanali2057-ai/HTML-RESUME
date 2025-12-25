@@ -1,0 +1,78 @@
+/* --------------------------------
+ELEMENT SELECTOR
+--------------------------------*/
+p{
+color: blue;
+font-size: 16px;
+}
+/*--------------------------------
+GROUP SELECTOR
+--------------------------------*/
+h1,h2, h3{
+font-family: Arial;
+color: darkblue;
+}
+/*--------------------------------
+ID SELECTOR (Highest Priority)
+--------------------------------*/
+#title{
+    color: purple;
+    text-align: center;
+}
+/*--------------------------------
+CLASS SELECTOR
+--------------------------------*/
+.info{
+font-style: italic;
+}
+/*--------------------------------
+DESCENDANT SELECTOR
+--------------------------------*/
+.card p{
+color:orange;
+}
+/*--------------------------------
+CSS BOX MODEL DEMO
+--------------------------------*/
+.card{
+border: 2px solid black;
+border-radius: 15px;
+padding: 15px;
+margin: 20px;
+width: 350px;
+}
+/*--------------------------------
+FONTS & COLORS
+--------------------------------*/
+body {
+font-family: 'Segoe UI', sans-serif;
+background-color: #f2f2f2;
+}
+label{
+color: rgb(0,100,150);
+font-weight: bold;
+}
+/*--------------------------------
+BUTTON STYLES
+--------------------------------*/
+button{
+background-color: green;
+color: white;
+border: none;
+padding: 10px;
+}
+/*--------------------------------
+SPECIFICITY DEMO
+--------------------------------*/
+P{
+color:
+brown;
+}
+.info{
+color:blue;
+}
+#title{
+color:red;
+}
+
+
